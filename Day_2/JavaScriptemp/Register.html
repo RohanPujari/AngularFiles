@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src='Registervalidate.js'></script>
+    <style>
+        .tablecss{
+            background-color: deepskyblue;
+            margin-left: 500px;
+            margin-right: 500px;
+            margin-top: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="next" action="NEXT.html">
+    <table border="1px black solid" class="tablecss">
+        <tr>
+            <td>Name</td>
+            <td><input type="text" id="name" placeholder="name"></td>
+            <td id="user-error"></td>
+        </tr>
+        <tr>
+            <td>employee code</td>
+            <td><input type="text" id="code" placeholder="code"></td>
+            <td id="pass-error" ></td>
+        </tr>
+        <tr>
+            <td>Department</td>
+            <td><input type="radio" name="rad">admin<br>
+                <input type="radio" name="rad">HR<br>
+                <input type="radio" name="rad">Technical<br>
+                <input type="radio" name="rad">Account<br></td>
+                <td id="radio-error"></td>
+            
+        </tr>
+        <tr>
+            <td>date of joining</td>
+            <td><select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+                <option>31</option>
+            </select>
+            <select>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option></select>
+                <select>
+                <option>2000</option>
+                <option>2001</option>
+                <option>2002</option>
+                <option>2003</option>
+                <option>2004</option>
+                <option>2005</option>
+                <option>2006</option>
+                <option>2007</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+                <option>2011</option></select><br>
+                dd &nbsp; &nbsp; &nbsp; mm &nbsp; &nbsp; &nbsp;  yyyy
+
+        </td>
+        </tr>
+        <tr>
+            <td>Address</td>
+            <td><textarea rows="5" cols="10"> </textarea>>
+        </tr>
+
+        <tr>
+            <td>
+                training program schedule
+            </td>
+            <td>
+                <input type="checkbox" >HTML/DHTML<br>
+                <input type="checkbox" >java<br>
+                <input type="checkbox" >client/server<br>
+                <input type="checkbox" >.net<br>
+            </td>
+        </tr>
+        <tr>
+            <td>Training program used to attend</td>
+            <td><select>
+                <option>javascript</option>
+                <option>java</option>
+                <option>HTML</option>
+                <option>.NET</option>
+            </select></td>
+        </tr>
+        <tr>
+            <td>send the inforation at</td>
+            <td><a href="">empinfo@</a></td>
+        </tr>
+
+        <tr>
+            <td colspan="2"><input type="button" value="submit here" onclick="Registervalidate()"></td>
+        </tr>
+
+    </table>
+</form>
+
+
+</body>
+</html>
